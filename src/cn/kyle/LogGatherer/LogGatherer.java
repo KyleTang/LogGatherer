@@ -197,14 +197,18 @@ public class LogGatherer extends Activity {
 					p.destroy();
 					br.close();
 					//追加系统信息
-					fw.write("---System info -----------------------------------\n");
+					fw.write("\n---System info ---------------------------");
 					fw.write("\nBuild.MODEL="+Build.MODEL);
 					fw.write("\nBuild.PRODUCT="+Build.PRODUCT);
+					fw.write("\nBuild.MANUFACTURER="+Build.MANUFACTURER);
 					fw.write("\nBuild.DEVICE="+Build.DEVICE);
 					fw.write("\nBuild.DISPLAY="+Build.DISPLAY);
 					fw.write("\nBuild.VERSION.CODENAME="+Build.VERSION.CODENAME);
 					fw.write("\nBuild.VERSION.RELEASE="+Build.VERSION.RELEASE);
-					fw.write("---end -----------------------------------\n");
+					fw.write("\nBuild.FINGERPRINT="+Build.FINGERPRINT);
+					fw.write("\nBuild.CPU_ABI="+Build.CPU_ABI);
+					fw.write("\nBuild.ID="+Build.ID);
+					fw.write("\n---end -----------------------------------\n");
 					//
 					fw.close();
 				} catch (IOException e) {
