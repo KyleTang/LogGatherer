@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LogGatherer!</string>
+    <string name="app_name">日志收集器</string>
+    <string name="tvTip">欢迎使用日志收集器，本工具是为了方便分析程序出错日志信息。</string>
+    <string name="tvTipTime"></string>
+    <string name="btnStart">开始收集</string>
+</resources>
